@@ -1,0 +1,30 @@
+nav{
+    display: block;
+    width: 660px;
+    margin: 0 auto 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    nav {  width: 100%; }
+    .block { width: 35%;}
+
+}
+
+
+
+table {
+
+    display: block;
+
+    width: 100%;
+
+    overflow-x: scroll;
+
+    overflow-y: hidden;
+
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+
+    -webkit-overflow-scrolling: touch;
+
+}
