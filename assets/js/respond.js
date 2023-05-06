@@ -367,10 +367,4 @@
 
    </script>
 
-if ($( document ).width() > 980) {
-
-    $.getScript( “assets/js/respond.js”);
-  
-  }
-   
 })(this);
